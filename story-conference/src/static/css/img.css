@@ -1,0 +1,110 @@
+.story {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  background-image: linear-gradient(34deg, #4BBC8B 0%, #A4DD7D 91%, #ADE07B 100%);
+  overflow-y: scroll;
+}
+
+.story .car-all {
+  position: absolute;
+  top: 5.4rem;
+  left: 3.62rem;
+  width: .76rem;
+  animation: myfirst 10s infinite;
+  animation-direction: alternate;
+}
+
+.story .car-all .car {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: .76rem;
+}
+
+.story .car-all .wheel-left {
+  position: absolute;
+  width: .18rem;
+  left: .12rem;
+  top: .18rem;
+  z-index: 2;
+}
+
+.story .car-all .wheel-right {
+  position: absolute;
+  width: .18rem;
+  left: .48rem;
+  top: .18rem;
+  z-index: 2;
+}
+
+.story .scene {
+  width: 100%;
+  height: auto;
+}
+
+.story .sun {
+  position: absolute;
+  left: .15rem;
+  top: 1.4rem;
+  width: 1.9rem;
+}
+
+.story .cloud2 {
+  position: absolute;
+  left: .34rem;
+  top: 2.68rem;
+  width: 1.5rem;
+}
+
+.story .cloud3 {
+  position: absolute;
+  left: 2.2rem;
+  top: 1.76rem;
+  width: 1.06rem;
+}
+
+.story .cloud1 {
+  position: absolute;
+  left: 5.54rem;
+  top: 2.04rem;
+  width: 1.46rem;
+}
+
+.story .bird1 {
+  position: absolute;
+  left: 6.06rem;
+  top: 3rem;
+  width: .44rem;
+}
+
+.story .bird2 {
+  position: absolute;
+  left: 4.68rem;
+  top: 2.74rem;
+  width: .44rem;
+}
+
+.story .content {
+  position: absolute;
+  left: .3rem;
+  top: 5.86rem;
+  width: 6.9rem;
+  background: #fff;
+  padding-bottom: .8rem;
+  border-bottom-left-radius: .3rem;
+  border-bottom-right-radius: .3rem;
+}
+
+@-webkit-keyframes myfirst {
+  0% {
+    transform: translateX(-3.6rem);
+  }
+  50% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(3rem);
+  }
+}
