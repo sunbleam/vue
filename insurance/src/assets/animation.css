@@ -1,0 +1,48 @@
+.show {
+  animation: show .5s forwards;
+}
+.hide {
+  animation: hide 5s forwards;
+}
+.show-opacity {
+  animation: showopacity 1s forwards;
+}
+.hide-opacity {
+  animation: hideopacity 1s forwards;
+}
+@keyframes show {
+  form {
+    bottom: -100%;
+  }
+  to {
+    bottom: 0;
+  }
+}
+@keyframes hide {
+  form {
+    bottom: 0;
+  }
+  to {
+    bottom: -100%;
+  }
+}
+@keyframes showopacity {
+  form {
+    opacity: 0;
+    z-index:-9;
+  }
+  to {
+    opacity: .5;
+    z-index: 99;
+  }
+}
+@keyframes hideopacity {
+  form {
+    opacity: .5;
+    z-index: 99;
+  }
+  to {
+    opacity: 0;
+    z-index: -9;
+  }
+}
