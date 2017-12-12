@@ -1,0 +1,69 @@
+.header {
+  width: 100%;
+  height: 1.2rem;
+  background: #E30C26;
+  color: #fff;
+  position: relative;
+}
+
+.header h4 {
+  line-height: .6rem;
+  text-align: center;
+  position: relative;
+  font-size: .18rem;
+}
+
+.header h4 span {
+  position: absolute;
+  left: .1rem;
+  font-size: .2rem;
+}
+
+.header p {
+  padding: .05rem .1rem;
+  border: .01rem solid #fff;
+  font-size: .2rem;
+  border-radius: .25rem;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.section {
+  -webkit-flex: 1;
+  overflow-y: scroll;
+  background: #fafafa;
+}
+
+.section .myOrder {
+  height: .4rem;
+  border-bottom: .01rem solid #eee;
+  background: #fff;
+  line-height: .4rem;
+  text-indent: .2rem;
+  position: relative;
+}
+
+.section .myOrder p {
+  position: absolute;
+  right: .2rem;
+  top: 0;
+}
+
+.section .shop {
+  background: #fff;
+  margin-top: .15rem;
+}
+
+.section .shop p {
+  line-height: .4rem;
+  text-indent: .2rem;
+  position: relative;
+}
+
+.section .shop p span {
+  position: absolute;
+  right: .2rem;
+  top: 0;
+  font-size: .22rem;
+}
